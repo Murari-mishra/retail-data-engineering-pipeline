@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Airflow
+logs/*
+!logs/.gitkeep
+
+# Environment variables
+.env
+
+# PostgreSQL
+*.sql.backup
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+
+# Python cache
+.pytest_cache/
+
+# Generated files
+data/retail_transformed_data.csv
